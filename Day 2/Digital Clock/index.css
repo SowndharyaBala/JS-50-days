@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a2e;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .clock {
+    background: linear-gradient(145deg, #0f3460, #16213e);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #121225, -10px -10px 20px #1c2050;
+    text-align: center;
+  }
+  
+  #date {
+    font-size: 24px;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  #time {
+    font-size: 48px;
+    color: #e94560;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    letter-spacing: 2px;
+  }
+  
