@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Unit Convertor</h1>
+    <div class="distance">
+    <input type="number" placeholder="Enter the value in KM" id="km">
+    <button onclick="distConvert()">Change to Miles</button>
+    <input type="number" id="miles" placeholder="Result in miles" readonly>
+</div>
+
+<div class="temp">
+    <input type="number" placeholder="Enter the value in Celsius" id="celsius">
+    <button onclick="tempConvert()">Change to Fahrenheit</button>
+    <input type="number" placeholder="Result in Fahrenheit" id="fahrenheit" readonly>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
